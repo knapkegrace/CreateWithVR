@@ -1016,3 +1016,4 @@ Received Import Request.
 Start importing Assets/_Course Library/_Prefabs/Objects/Launchers/Launcher_Stapler.prefab using Guid(891b1af7c2150f94f95fdcac2bcc28e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b324b7456f738796a473932663be39a') in 0.036395 seconds
   Import took 0.050295 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
