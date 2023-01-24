@@ -200,3 +200,4 @@ Received Import Request.
 Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Sunset.prefab using Guid(7b844f6cdc7f1ce4fba989b2d7db9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6bb9e9f64cab10180a3e918717e19d') in 0.027566 seconds
   Import took 0.035348 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
