@@ -1,654 +1,95 @@
 Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19044.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Volumes/NO NAME/Create with VR/CreateWithVR/VR Room - Grace K
+C:/Users/w012gek/Desktop/CreateWithVR/VR Room - Grace K
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56541
-Successfully changed project path to: /Volumes/NO NAME/Create with VR/CreateWithVR/VR Room - Grace K
-/Volumes/NO NAME/Create with VR/CreateWithVR/VR Room - Grace K
+57023
+Successfully changed project path to: C:/Users/w012gek/Desktop/CreateWithVR/VR Room - Grace K
+C:/Users/w012gek/Desktop/CreateWithVR/VR Room - Grace K
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 54.33 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Volumes/NO NAME/Create with VR/CreateWithVR/VR Room - Grace K/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/w012gek/Desktop/CreateWithVR/VR Room - Grace K/Assets
 GfxDevice: creating device client; threaded=0
-2023-02-12 15:53:21.589 Unity[15782:961600] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2023-02-12 15:53:21.589 Unity[15782:961600] Metal devices available: 2
-2023-02-12 15:53:21.589 Unity[15782:961600] 0: AMD Radeon Pro 5300M (high power)
-2023-02-12 15:53:21.589 Unity[15782:961600] 1: Intel(R) UHD Graphics 630 (low power)
-2023-02-12 15:53:21.589 Unity[15782:961600] Using device AMD Radeon Pro 5300M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5300M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 550 (ID=0x699f)
+    Vendor:   
+    VRAM:     4041 MB
+    Driver:   27.20.1032.2
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56782
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002764 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 62.11 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001381 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.28 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.094 seconds
+- Completed reload, in  0.796 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012281 seconds.
+Registered in 0.003920 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 51.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.82 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\w012gek\Desktop\CreateWithVR\VR Room - Grace K\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\w012gek\Desktop\CreateWithVR\VR Room - Grace K\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  0.932 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.8 MB.
-System memory in use after: 217.0 MB.
+System memory in use before: 141.7 MB.
+System memory in use after: 141.7 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3542.
-Total: 2.910792 ms (FindLiveObjects: 0.350425 ms CreateObjectMapping: 0.129935 ms MarkObjects: 2.354447 ms  DeleteObjects: 0.075019 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 2.637800 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.380100 ms MarkObjects: 1.749900 ms  DeleteObjects: 0.052200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Click_4.ogg
-  artifactKey: Guid(d306fcf87f5874a5888091cab90ba4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Click_4.ogg using Guid(d306fcf87f5874a5888091cab90ba4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76ef07f7c258680b10353bec2f694c4') in 0.583586 seconds
-  Import took 0.594565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/_Course Library/Audio
-  artifactKey: Guid(9d25e569fb6644e29b2167f7f0ca5349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio using Guid(9d25e569fb6644e29b2167f7f0ca5349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9828d9ae2b8624fb464c7babe2dfb8') in 0.003259 seconds
-  Import took 0.011814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/_Course Library/Audio/FX
-  artifactKey: Guid(0e0a5d2cd49114611844a8dce41da09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX using Guid(0e0a5d2cd49114611844a8dce41da09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab75b47bbe8c0961b2aec5465492e2b') in 0.003253 seconds
-  Import took 0.009936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Bird_3.ogg
-  artifactKey: Guid(28e0735174c1c4ed683675c57b4d07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Bird_3.ogg using Guid(28e0735174c1c4ed683675c57b4d07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1627ad6c55f232ba6adb1cd721cb1bb3') in 0.033569 seconds
-  Import took 0.042699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Quick_4.ogg
-  artifactKey: Guid(fbe0600515f4f482a9bb51aab560e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Quick_4.ogg using Guid(fbe0600515f4f482a9bb51aab560e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7fb20d8c9a30a9f820abbb4cb01c3d') in 0.014788 seconds
-  Import took 0.022707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Concrete.ogg
-  artifactKey: Guid(d727703712b36426db75d0e99085a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Concrete.ogg using Guid(d727703712b36426db75d0e99085a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399fc5dca9b5cc932069fb71fde87187') in 0.041667 seconds
-  Import took 0.049566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Quick_3.ogg
-  artifactKey: Guid(113942fcb94a14f7386264fc45956b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Quick_3.ogg using Guid(113942fcb94a14f7386264fc45956b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59547c590674e6b7060e63fd499460c') in 0.037215 seconds
-  Import took 0.046722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Bird_1.ogg
-  artifactKey: Guid(ffcac3d6adf3c4a5a9fceb69ed040b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Bird_1.ogg using Guid(ffcac3d6adf3c4a5a9fceb69ed040b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faea2ecf466517c01930ef050e18693') in 0.014685 seconds
-  Import took 0.024569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Button_2.ogg
-  artifactKey: Guid(02e01164404134d2c9265aa08b65ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Button_2.ogg using Guid(02e01164404134d2c9265aa08b65ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959c94f11bff868196651d83e1132a50') in 0.036265 seconds
-  Import took 0.043704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_1.ogg
-  artifactKey: Guid(be8221a34ec964baca77aa1158dd9a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_1.ogg using Guid(be8221a34ec964baca77aa1158dd9a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12acd67502508a84ec149ccb9ec2c341') in 0.038355 seconds
-  Import took 0.048580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_SciFi_Back.ogg
-  artifactKey: Guid(3a8730ed83cf54ec3af36761459c24e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_SciFi_Back.ogg using Guid(3a8730ed83cf54ec3af36761459c24e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ab5b93ed3f7678c457a3d2ce536021') in 0.026797 seconds
-  Import took 0.037961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Liquid_Splash.ogg
-  artifactKey: Guid(7bb57394759014e20b218cf8f8040440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Liquid_Splash.ogg using Guid(7bb57394759014e20b218cf8f8040440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06515fbb35ea80618cb3bae206d5dc6a') in 0.015499 seconds
-  Import took 0.021810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Fire.ogg
-  artifactKey: Guid(ef77e9bee03ff4bb5a41dbb472fc6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Fire.ogg using Guid(ef77e9bee03ff4bb5a41dbb472fc6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9479966f4d71d66c0bb7f2efc4a6b477') in 0.036419 seconds
-  Import took 0.042578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Metal.ogg
-  artifactKey: Guid(fdb8a3585af1e45918bc4babd167b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Metal.ogg using Guid(fdb8a3585af1e45918bc4babd167b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4998a84130be518054fead5d2cfc9ec') in 0.026706 seconds
-  Import took 0.034792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Polaroid_Print.ogg
-  artifactKey: Guid(c8da34f5308f447e8a07706592954d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Polaroid_Print.ogg using Guid(c8da34f5308f447e8a07706592954d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5675e3bef279d8e5cbe59bd4528d5d') in 0.014656 seconds
-  Import took 0.021785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Heavy.ogg
-  artifactKey: Guid(47d525776691f4a039da24d17caa644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Heavy.ogg using Guid(47d525776691f4a039da24d17caa644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4200eb17e126d002ef36f52031b3af') in 0.028620 seconds
-  Import took 0.034844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Game_Positive.ogg
-  artifactKey: Guid(a6e6cb127e7044a3eaa8772d8a314706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Game_Positive.ogg using Guid(a6e6cb127e7044a3eaa8772d8a314706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a0bc4ae7213fa7b73c12e34d0dfcaf') in 0.014660 seconds
-  Import took 0.020513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Wind.ogg
-  artifactKey: Guid(ac26011162cb54a1e8e5281a89bd5282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Wind.ogg using Guid(ac26011162cb54a1e8e5281a89bd5282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98adc6b7e13bfad98c2ea8dab85c0c8a') in 0.027268 seconds
-  Import took 0.033462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Glass.ogg
-  artifactKey: Guid(1b706adc9022a41ab90c83849d16c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Glass.ogg using Guid(1b706adc9022a41ab90c83849d16c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7acd80a7eb71628a84c091cf31e0fbe') in 0.012379 seconds
-  Import took 0.017297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Click_5.ogg
-  artifactKey: Guid(f0dff4da8e4204fe9b98afb911292ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Click_5.ogg using Guid(f0dff4da8e4204fe9b98afb911292ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffd91a702e324fab9f463ec1e4edfee') in 0.045311 seconds
-  Import took 0.051124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Click_1.ogg
-  artifactKey: Guid(8436c8cf5779f4fbda9ea5a4acee8d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Click_1.ogg using Guid(8436c8cf5779f4fbda9ea5a4acee8d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032e5a45a5bde7a9312fd8ad472c1841') in 0.015237 seconds
-  Import took 0.022069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004411 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Powerup.ogg
-  artifactKey: Guid(4f5cb06e8f78048c7aeff58324ede3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Powerup.ogg using Guid(4f5cb06e8f78048c7aeff58324ede3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f67e7fe829d5f34ac57d54519981fcf') in 0.024747 seconds
-  Import took 0.031454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_4.ogg
-  artifactKey: Guid(9b1ecbe797fdd40e0bfc0900b6ad0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_4.ogg using Guid(9b1ecbe797fdd40e0bfc0900b6ad0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c85b989186b1966094d6d20189a5bd2') in 0.027260 seconds
-  Import took 0.033044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Machine.ogg
-  artifactKey: Guid(f3d02eed8de884b8f8e2df103802faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Machine.ogg using Guid(f3d02eed8de884b8f8e2df103802faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb8ea068421b86a0de9f4d0a6a0ae6') in 0.014520 seconds
-  Import took 0.020455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Plastic.ogg
-  artifactKey: Guid(de71552a2aee34906aaf9ec2749b888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Plastic.ogg using Guid(de71552a2aee34906aaf9ec2749b888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6651079d0f8f0aaede145c709b00084') in 0.028491 seconds
-  Import took 0.034681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Button_1.ogg
-  artifactKey: Guid(3c7b3ef689cc94af0bd824489050effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Button_1.ogg using Guid(3c7b3ef689cc94af0bd824489050effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081f5e4f5ee55aa3d7863f98e39a67d2') in 0.022063 seconds
-  Import took 0.029871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_SciFi_Forward.ogg
-  artifactKey: Guid(8514acdb166b1499a9ee49941ff691f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_SciFi_Forward.ogg using Guid(8514acdb166b1499a9ee49941ff691f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171f38bf452a655dc731a5600005bd7e') in 0.036941 seconds
-  Import took 0.042762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_3.ogg
-  artifactKey: Guid(b8ba7dd0f8e2f45fdb360cb8df91de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_3.ogg using Guid(b8ba7dd0f8e2f45fdb360cb8df91de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60829c4a852500a3a5f0014fb272508b') in 0.020176 seconds
-  Import took 0.026178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Liquid_Pour.ogg
-  artifactKey: Guid(2750d8f1e9746416a82993326371d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Liquid_Pour.ogg using Guid(2750d8f1e9746416a82993326371d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dc0605fe7adde3c01f2ac21e8a8e39') in 0.014337 seconds
-  Import took 0.019879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Quick_2.ogg
-  artifactKey: Guid(eb6747799fac14af58d8c4fc5410fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Quick_2.ogg using Guid(eb6747799fac14af58d8c4fc5410fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2f9c75f9cf63116a187ea7f35ad75') in 0.032455 seconds
-  Import took 0.038820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Click_3.ogg
-  artifactKey: Guid(0d9ba9deac23f4ff199b989fe352e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Click_3.ogg using Guid(0d9ba9deac23f4ff199b989fe352e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50881c5a9deb012ba0d57ac9bf8c28ce') in 0.016070 seconds
-  Import took 0.021997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Game_Negative.ogg
-  artifactKey: Guid(a6d54794b4ce94de1b7b1587af379192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Game_Negative.ogg using Guid(a6d54794b4ce94de1b7b1587af379192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ff1ce1626b6de19b1dd44b60db49d7') in 0.025776 seconds
-  Import took 0.031649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Log.ogg
-  artifactKey: Guid(5fa2a1e03047f4f37a8f475c272636e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Log.ogg using Guid(5fa2a1e03047f4f37a8f475c272636e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac7ea512c9f9a2a0c997a944c2f8999') in 0.013903 seconds
-  Import took 0.019913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Buzz_2.ogg
-  artifactKey: Guid(c0485129cacdd4a4c9822d92e2a9adc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Buzz_2.ogg using Guid(c0485129cacdd4a4c9822d92e2a9adc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccc075e7ccd3f8b41390fed01f14196') in 0.044592 seconds
-  Import took 0.050863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Steam.ogg
-  artifactKey: Guid(12466592d2edd47879e8a1276cb68d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Steam.ogg using Guid(12466592d2edd47879e8a1276cb68d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1423fe101df165040314777ee3e8c71d') in 0.013092 seconds
-  Import took 0.018393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Books.ogg
-  artifactKey: Guid(fab5b2719139b410aab0fc2af968e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Books.ogg using Guid(fab5b2719139b410aab0fc2af968e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9091cedb2ead9a2dc382a1c30555681b') in 0.031376 seconds
-  Import took 0.037568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Game_Success.ogg
-  artifactKey: Guid(ffa67130b8bb74c7f8bc2b3ce9149daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Game_Success.ogg using Guid(ffa67130b8bb74c7f8bc2b3ce9149daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd54b98ace45b1b714c4b8f10a25f95c') in 0.028842 seconds
-  Import took 0.035217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_2.ogg
-  artifactKey: Guid(5ba88ca933c5b4e579c5e971949a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Shoot_2.ogg using Guid(5ba88ca933c5b4e579c5e971949a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc49804282db08dec32d7045d317717b') in 0.011855 seconds
-  Import took 0.017779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_Buzz_1.ogg
-  artifactKey: Guid(088ba1df0d9c04f62b913b155a14cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_Buzz_1.ogg using Guid(088ba1df0d9c04f62b913b155a14cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c653e8b571a23804f08d2f0b451626d7') in 0.027427 seconds
-  Import took 0.033576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/_Course Library
-  artifactKey: Guid(8c8d914a1d5c8496c93eb389dab42fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library using Guid(8c8d914a1d5c8496c93eb389dab42fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f52d9bf361784a47e43d33ff1815259') in 0.003037 seconds
-  Import took 0.008964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Click_2.ogg
-  artifactKey: Guid(39eeabf0f489f4e46a024aa733bf1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Click_2.ogg using Guid(39eeabf0f489f4e46a024aa733bf1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac9ba1940f66939291d3c7fa721ed33') in 0.015284 seconds
-  Import took 0.021888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Cork_Pop.ogg
-  artifactKey: Guid(73fe6f8dbb7a64c96a1d52f467088b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Cork_Pop.ogg using Guid(73fe6f8dbb7a64c96a1d52f467088b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a193f4d4fcec05b11f459f1ec6110') in 0.037823 seconds
-  Import took 0.045931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Machine_Stamp.ogg
-  artifactKey: Guid(f3c16f48623484a42b8624861a87ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Machine_Stamp.ogg using Guid(f3c16f48623484a42b8624861a87ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf98e78c94877809501c1ced2968192') in 0.012989 seconds
-  Import took 0.017991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_UI_Quick_1.ogg
-  artifactKey: Guid(cbca6f23424bd42c9a2cae00f5b644ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_UI_Quick_1.ogg using Guid(cbca6f23424bd42c9a2cae00f5b644ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090786fca7b624a74b04a9677cd73d01') in 0.025674 seconds
-  Import took 0.031708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Loop_RadioTuning.ogg
-  artifactKey: Guid(658a9d5e3f97b4f52b6bb3a615fd3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Loop_RadioTuning.ogg using Guid(658a9d5e3f97b4f52b6bb3a615fd3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926dea8d5f6ba794eae8ce558b6ea199') in 0.012152 seconds
-  Import took 0.018416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Bird_2.ogg
-  artifactKey: Guid(5852b85f5b6c7456db15d397337533a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Bird_2.ogg using Guid(5852b85f5b6c7456db15d397337533a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703bc49a0f67bd80bcf34296f4b4b22') in 0.117493 seconds
-  Import took 0.123671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Ball.ogg
-  artifactKey: Guid(4469071d9ffe04738b4c4992bda32cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Ball.ogg using Guid(4469071d9ffe04738b4c4992bda32cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce0cf903988380d5b797cacded6c38') in 0.015688 seconds
-  Import took 0.021522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 304.368390 seconds.
-  path: Assets/_Course Library/Materials/Particle Materials/PartilcleMaterial_Fire.mat
-  artifactKey: Guid(04dc29ccdba6849658c5b0a7c1c541f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Particle Materials/PartilcleMaterial_Fire.mat using Guid(04dc29ccdba6849658c5b0a7c1c541f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceba9cae4d523d89df3286d4126b8186') in 1.792503 seconds
-  Import took 1.799508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.921584 seconds.
-  path: Assets/_Course Library/Audio/Music
-  artifactKey: Guid(0f1cfefe06dd64fe6aea8dc018b3bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/Music using Guid(0f1cfefe06dd64fe6aea8dc018b3bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80ce9dc9b8b3baf1a919db50b9a7d27') in 0.003689 seconds
-  Import took 0.010591 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025384 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.578 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.5 MB.
-System memory in use after: 218.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3625.
-Total: 3.441738 ms (FindLiveObjects: 0.443372 ms CreateObjectMapping: 0.167254 ms MarkObjects: 2.807461 ms  DeleteObjects: 0.022406 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 1424.530421 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics
-  artifactKey: Guid(36f6598df56d84ee9a2ffc7e07a352dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics using Guid(36f6598df56d84ee9a2ffc7e07a352dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363e96d0686e5bef24bee6a1b06ece0f') in 0.018957 seconds
-  Import took 0.025949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107914 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Camera.prefab
-  artifactKey: Guid(ae789ad601c1b51489889f8e89d55e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Camera.prefab using Guid(ae789ad601c1b51489889f8e89d55e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e56cef45ed1c99b6baa1891621384e') in 0.373796 seconds
-  Import took 0.380592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Controller.prefab
-  artifactKey: Guid(d402ff832ccc1404c8a7261215a1a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Controller.prefab using Guid(d402ff832ccc1404c8a7261215a1a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8698c3d622f099c9e619e3c1a76e3a') in 0.035627 seconds
-  Import took 0.041936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab
-  artifactKey: Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab using Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fb35ced72e11a8134b33a3a8d89d96') in 0.300270 seconds
-  Import took 0.306808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Black.prefab
-  artifactKey: Guid(3aa652a464bc0a443929c5bccea434f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Black.prefab using Guid(3aa652a464bc0a443929c5bccea434f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfc3410cf96eafe46e2a43e1357d460') in 0.044747 seconds
-  Import took 0.053561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Purple.prefab
-  artifactKey: Guid(4be497e6e26d5f545ae737c2136c7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Purple.prefab using Guid(4be497e6e26d5f545ae737c2136c7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4637022ed51a4fb30ca6861fd890c2') in 0.063863 seconds
-  Import took 0.071391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Black.prefab
-  artifactKey: Guid(a10f9b5efa3afd144bd0ffbb1f149e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Black.prefab using Guid(a10f9b5efa3afd144bd0ffbb1f149e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429829f7f30a179cf5d74c524dd36e9d') in 0.032249 seconds
-  Import took 0.039993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab
-  artifactKey: Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab using Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb569ac99266a61347e9d1aad8a4d98') in 0.026273 seconds
-  Import took 0.031818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Red.prefab
-  artifactKey: Guid(ed9d61a9f6613044996e81235826dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Red.prefab using Guid(ed9d61a9f6613044996e81235826dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e2b1dff484167cf1a7a565ba9346de') in 0.070921 seconds
-  Import took 0.077775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab
-  artifactKey: Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab using Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a8e016347b031ee631c1e0e74d8c2b') in 0.043304 seconds
-  Import took 0.051677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_White.prefab
-  artifactKey: Guid(c38a24daa20a8604f94580629bfdbd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_White.prefab using Guid(c38a24daa20a8604f94580629bfdbd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f07e03cfc5995d7f28ac66e62015a0c') in 0.056672 seconds
-  Import took 0.063067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Console.prefab
-  artifactKey: Guid(0f1dd0ba4b8377140b6dcfbb7e623ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Console.prefab using Guid(0f1dd0ba4b8377140b6dcfbb7e623ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94786866589722a3cb2dc7b4e0b3565') in 0.035945 seconds
-  Import took 0.044225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Camera_Photograph.prefab
-  artifactKey: Guid(3dabf4d9563cdc0468cf785661c2ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Camera_Photograph.prefab using Guid(3dabf4d9563cdc0468cf785661c2ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d2953e674edcc45dc1a37a9d7bc26e') in 0.049393 seconds
-  Import took 0.056591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Digital.prefab
-  artifactKey: Guid(97b24df0c5223427784dd09efe9b76df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Digital.prefab using Guid(97b24df0c5223427784dd09efe9b76df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aa56762ed02366c1c6acdaad7bdb61') in 0.397272 seconds
-  Import took 0.404372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab
-  artifactKey: Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab using Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4483a214256a50ee19a1c3964b9498d') in 0.046246 seconds
-  Import took 0.055941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2066.173594 seconds.
-  path: Assets/_Course Library/Scripts
-  artifactKey: Guid(84c8d5c187f7f5644bb628e32880bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Scripts using Guid(84c8d5c187f7f5644bb628e32880bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428fa79f598f5a0353cf3740f1b4c52') in 0.013520 seconds
-  Import took 0.020576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.475201 seconds.
-  path: Assets/_Course Library/Scripts/Actions
-  artifactKey: Guid(b7bcca2a7b6902f4a87db4a2f800b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Scripts/Actions using Guid(b7bcca2a7b6902f4a87db4a2f800b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e65b334b2fc641e301d5ac3e0029b6') in 0.005882 seconds
-  Import took 0.012741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.387625 seconds.
-  path: Assets/_Course Library/Materials
-  artifactKey: Guid(155704bd1ca848b4bae9e1a7285a492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials using Guid(155704bd1ca848b4bae9e1a7285a492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc97a2a32ea48ef29ac586452ef8ea1d') in 0.006351 seconds
-  Import took 0.013490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.768901 seconds.
-  path: Assets/_Course Library/Materials/Solid Colors
-  artifactKey: Guid(92cdc736b7265489b87a84f0eedde715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Solid Colors using Guid(92cdc736b7265489b87a84f0eedde715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177b06924c8cd3af43bd49f05d07bac4') in 0.006265 seconds
-  Import took 0.012850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 474.092705 seconds.
-  path: Assets/_Course Library/Video/Video_Unity-for-everyone.mp4
-  artifactKey: Guid(c675fc381244840f4900887e1b0870d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Video/Video_Unity-for-everyone.mp4 using Guid(c675fc381244840f4900887e1b0870d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2ce86fcac1073cd1667ef6487f200b') in 1.078813 seconds
-  Import took 1.085671 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dce29554b55ededef0f835345cd0324') in 0.008181 seconds
+  Import took 0.012337 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
